@@ -41,7 +41,7 @@ php yii migrate --migrationPath=vendor/dvizh/yii2-promocode/migrations
             'class' => 'dvizh\promocode\Module',
             'informer' => 'dvizh\cart\widgets\CartInformer', // namespace to custom cartInformer widget
             'informerSettings' => [], //settings for custom cartInformer widget
-            'usesModel' => 'dektrium\user\models\User', //Модель пользователей
+            'clientsModel' => 'dektrium\user\models\User', //Модель пользователей
             //Указываем модели, к которым будем привязывать промокод
             'targetModelList' => [
                 'Категории' => [
