@@ -26,7 +26,7 @@ php composer update
 
 Миграция:
 
-php yii migrate --migrationPath=vendor/dvizh/yii2-promocode/migrations
+php yii migrate --migrationPath=vendor/dvizh/yii2-promocode/src/migrations
 
 Подключение и настройка
 ---------------------------------
