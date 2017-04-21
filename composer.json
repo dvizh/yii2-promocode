@@ -1,0 +1,37 @@
+{
+    "name": "dvizh/yii2-promocode",
+    "description": "Добавление функционала промокодов (купонов) на сайт, работает с dvizh/cart и dvizh/order",
+    "keywords": ["yii2", "yii2", "application", "coupons", "yii2-promocode", "promocodes", "dvizh"],
+    "homepage": "https://github.com/dvizh/yii2-promocode",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/dvizh/yii2-promocode"
+    },
+    "authors": [
+        {
+            "name": "Ilya Pistol",
+            "email": "admin@nethammer.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "dvizh/yii2-order": "*",
+        "dvizh/yii2-cart": "*",
+        "kartik-v/yii2-widget-datepicker": "@dev"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "autoload": {
+        "psr-4": {
+            "dvizh\\promocode\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "dvizh\\promocode\\Bootstrap"
+    }
+}
