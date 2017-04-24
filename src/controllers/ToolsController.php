@@ -24,7 +24,7 @@ class ToolsController  extends Controller
 
     public function actionProductWindow($targetModel = null)
     {
-        $this->layout = '@vendor/dvizh/yii2-promocode/views/layouts/mini';
+        $this->layout = '@vendor/dvizh/yii2-promocode/src/views/layouts/mini';
 
         $targetSearchModel = $this->module->targetModelList[$targetModel]['searchModel'];
         $targetSimpleModel = $this->module->targetModelList[$targetModel]['model'];
