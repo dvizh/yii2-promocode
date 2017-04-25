@@ -4,7 +4,7 @@
     "keywords": ["yii2", "yii2", "application", "coupons", "yii2-promocode", "promocodes", "dvizh"],
     "homepage": "https://github.com/dvizh/yii2-promocode",
     "type": "yii2-extension",
-    "license": "BSD-3-Clause",
+    "license": "Apache",
     "support": {
         "source": "https://github.com/dvizh/yii2-promocode"
     },
