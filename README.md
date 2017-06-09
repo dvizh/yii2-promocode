@@ -9,13 +9,13 @@ Yii2-promocode
 Выполнить команду
 
 ```
-php composer require dvizh/yii2-promocode "*"
+php composer require dvizh/yii2-promocode "@dev"
 ```
 
 Или добавить в composer.json
 
 ```
-"dvizh/yii2-promocode": "*",
+"dvizh/yii2-promocode": "@dev",
 ```
 
 И выполнить
