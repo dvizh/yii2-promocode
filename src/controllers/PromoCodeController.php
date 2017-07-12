@@ -147,7 +147,7 @@ class PromoCodeController extends Controller
         $targetModelList = [];
         $items = [];
 
-        if($clientsModel = yii::$app->getModule('promocode')->usesModel) {
+        if($clientsModel = yii::$app->getModule('promocode')->clientsModel) {
             $clientsModelMap = ArrayHelper::map($clientsModel::find()->all(), 'id', 'username');
         } else {
             $clientsModelMap = [];
