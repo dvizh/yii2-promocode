@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = 'Изменить промокод '.$model->co
         'targetModelList' => $targetModelList,
         'items' => $items,
         'conditions' => $conditions,
-        'usesModelMap' => $clientsModelMap,
+        //'usesModelMap' => $clientsModelMap,
     ]) ?>
 
 </div>
