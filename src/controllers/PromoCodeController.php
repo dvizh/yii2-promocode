@@ -148,6 +148,7 @@ class PromoCodeController extends Controller
         $items = [];
 
         if($clientsModel = yii::$app->getModule('promocode')->clientsModel) {
+            $clientsModel = new $clientsModel;
             $clientsModelMap = ArrayHelper::map($clientsModel::find()->all(), 'id', 'username');
         } else {
             $clientsModelMap = [];
@@ -203,7 +204,7 @@ class PromoCodeController extends Controller
                 'targetModelList' => $targetModelList,
                 'items' => $items,
                 'conditions' => $conditions,
-                'usesModelMap' => $clientsModelMap,
+                'clientsModelMap' => $clientsModelMap,
             ]);
         }
     }
