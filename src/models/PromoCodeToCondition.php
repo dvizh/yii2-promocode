@@ -31,6 +31,6 @@ class PromoCodeToCondition extends \yii\db\ActiveRecord
 
     public function getCondition()
     {
-        return $this->hasOne(PromoCodeCondition::className(),['condition_id' => 'condition_id']);
+        return $this->hasOne(PromoCodeCondition::className(),['id' => 'condition_id']);
     }
 }
